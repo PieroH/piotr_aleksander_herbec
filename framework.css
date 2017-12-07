@@ -5,10 +5,15 @@ padding-left: 20px;
 margin-bottom: 20px;
 padding-right: 20px;
 }
-/*The Name is always color white*/
+/*The Names is always color white*/
 .topPage {
   color: white;
 }
+/*The Names is in the right top corner*/
+#title {
+  float: right;
+}
+
 
 h1{
   color: white;
