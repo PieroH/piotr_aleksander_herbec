@@ -1,0 +1,123 @@
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/bootstrap-material-design@4.0.0-beta.3/dist/css/bootstrap-materialdesign.min.css"
+    integrity="sha384-k5bjxeyx3S5yJJNRD1eKUMdgxuvfisWKku5dwHQq9Q/Lz6H8CyL89KF52ICpX4cL"
+    crossorigin="anonymous">
+
+    <title>Assesment Portfolio P. Herbec </title>
+
+    <link rel="stylesheet"  href="framework.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/unsemantic/1.1.3/unsemantic-gridresponsive-tablet.css">    <!-- Framework for Grids/Containers -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">         <!-- Contact Me HOT LINE ICON -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">   <!--Social Icons -->
+</head>
+
+ <body>
+   <header>
+    <div class="topPage">
+            <img src="Profile.jpg" alt="portret_of_me" style="border-radius: 50%; width: 150px; height: 150px;">
+         <aside class="grid-33 tablet-grid-50 mobile-grid-100" id="title">
+             <h1>Piotr Aleksander Herbec</h1>
+        </aside>
+    </div>
+</header>
+
+<div>
+ <div id="navigation">
+  <nav>
+     <ul>
+       <li><a href="home.html"  accesskey="1">HOME</a></li>
+       <li><a href="cv.html" accesskey="2">CV</a></li>
+       <li><a href="projects.html" accesskey="3">PROJECTS</a></li>
+       <li><strong><a href="contact.html" accesskey="4">CONTACT</a></strong></li>
+    </ul>
+  </nav>
+</div>
+</div>
+
+
+<div id="GoogleMaps">
+  <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d4332.138801528448!2d-2.140582217733079!3d57.11877723173507!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x5d8969688e77366a!2sRobert+Gordon+University!5e0!3m2!1spl!2suk!4v1512583552210">
+  </iframe>
+</div>
+
+<main>
+
+
+
+  <div class="socialIcons">
+    <a href="http://www.thepictaram.club/instagram/pieroherbec"><i class="fa fa-instagram" style="font-size:72px"></i></a>
+    <a href="https://www.facebook.com/piotr.herbec"><i class="fa fa-facebook-square" style="font-size:72px"></i></a>
+    <a href="https://www.youtube.com/user/EditVcom"><i class="fa fa-youtube-square" style="font-size:72px"></i></a>
+  </div>
+
+ <div class="contactTAB">
+  <form
+      action="mailto:1713266@rgu.ac.uk"
+      method="POST"
+      enctype="multipart/form-data"
+      name="EmailTestForm">
+
+  <h2 id="contact-heading">Send me a message</h2>
+  <textarea
+    name="Comment"
+    rows="8"
+    cols="50">
+  </textarea>
+    <br><br>
+   <input type="submit" value="Send">
+  </form>
+</div>
+
+
+<div id="HOTLINE">
+  <button id="myBtn"><i class="material-icons"><a>HOT LINE</a></i></button>
+  <div id="myMail" class="mail">
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <p>My 24/7 mobile phone: +44 666 666 666</p>
+  </div>
+ </div>
+</div>
+
+ <!-- // How To Make a Modal Box With CSS and JavaScript
+ //W3schools.com
+ //https://www.w3schools.com/howto/howto_css_modals.asp
+ //Accessed on 02.12.2017 -->
+
+
+<script>
+var mail = document.getElementById('myMail');
+var btn = document.getElementById("myBtn");
+var span = document.getElementsByClassName("close")[0];
+
+
+btn.onclick = function() {
+  mail.style.display = "block";
+}
+btn.onclick = function() {
+  mail.style.display = "block";
+}
+
+span.onclick = function() {
+  mail.style.display = "none";
+}
+window.onclick = function(event) {
+  if (event.target == mail) {
+      mail.style.display = "none";
+  }
+}
+</script>
+
+
+
+ </main>
+
+ <footer>
+        &copy; Piero Herbec 2017 @ RGU
+ </footer>
+</body>
+</html>

@@ -1,0 +1,330 @@
+/*Header adjusted to layout of the theme picture*/
+header {
+padding-top: 20px;
+padding-left: 20px;
+margin-bottom: 20px;
+padding-right: 20px;
+}
+
+
+#title {
+  float: right;
+}
+
+h1{
+  color: white;
+  font-size: 34;
+}
+
+body {
+     background: url(theme.jpg);
+     background-color: #424241;
+     background-size: contain;
+     background-repeat: no-repeat;
+     overflow-x: hidden;
+}
+
+main {
+  background-color: #424241;
+}
+
+i {
+  color: white;
+}
+
+/*NAVIGATION BAR Left Inline*/
+
+#navigation {
+  padding: 20px;
+  margin-top: 20%;
+  font: menu;
+  font-size: 34;
+  display: inline-block;
+}
+   a {
+    color: #cfcfcf;
+   }
+
+  #navigation a:hover,a:focus{
+   	text-decoration:none;
+   	color:#26a5d3;
+   }
+
+   ul {
+     color: #cfcfcf;
+     list-style-type: none;
+     margin: 0;
+     padding: 0;
+   }
+
+   li {
+      float: left;
+  }
+    li a {
+      padding: 10px 10px 10px 10px;
+      text-decoration: none;
+  }
+
+section {
+  display: block;
+}
+
+/*HOME content section*/
+
+h2  {
+  size: 44;
+  color: lightgrey;
+  text-align: left:
+}
+
+p {
+  color: lightgrey;
+  font-size: 22;
+}
+
+
+#box2 {
+  max-width: 50%;
+  margin-top: 10%;
+  margin-left: 5%;
+  float:left;
+  }
+
+.rpage {
+  margin-top: 10%;
+  margin-right: 40px;
+  float: right;
+  }
+
+/*HOME content section*/
+
+
+
+/*The CV Tables and styling*/
+
+#tableEDU {
+    max-width: auto;
+    margin-left: 5%;
+    margin-top: 10%;
+    margin-right: 5%;
+}
+
+  #tableEXP {
+   margin-left: 5%;
+   margin-top: 5%;
+  }
+  #tableHobby {
+    margin-left: 5%;
+    margin-top: 5%;
+  }
+
+th {
+  size: 72;
+  color: #cfcfcc;
+  text-align: left;
+  padding: 15px;
+}
+
+tr {
+  padding: 5px;
+}
+
+td {
+  size: 56;
+  color: #cfccff;
+  padding: 15px;
+  text-align: left;
+  }
+
+article {
+  color: white;
+  }
+
+table{
+  margin-left: 10%;
+  }
+
+/*The CV Tables and styling*/
+
+/*VIDEO content, centered and big*/
+#videobox iframe {
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 2%;
+    width: 70%;
+    height: 70%;
+
+}
+/*VIDEO content, centered and big*/
+
+
+/*The PROJECT SITE stylesheet*/
+
+.nav {
+  background-color: #424241;
+}
+.container {
+background-color: #424241;
+padding-bottom: 20px;
+color: white;
+}
+
+.row {
+  background-color: #424241;
+}
+
+.grid-container {
+  display: grid;
+  width: 100%;
+  grid-template-columns: auto auto auto auto;
+
+
+}
+.grid-container img {
+  width: 100%;
+  content: no-repeat;
+  padding: 5%;
+}
+/*The project stylesheet*/
+
+/*bottom Galleries*/
+
+#galleryphotos {
+  float: left;
+}
+.a1 img {
+  width: 50%;
+  height: auto;
+}
+.a2 img {
+  width: 50%;
+  height: auto;
+}
+.a3 img {
+  width: 50%;
+  height: auto;
+}
+
+#galleryphotos p {
+  padding-left: 5%;
+}
+/*bottom Galleries*/
+
+/*contact form */
+
+.contactTAB {
+text-align: center;
+width: 50%;
+margin-top: 5%;
+height: 5%
+}
+.socialIcons {
+  text-align: center;
+  width: 50%;
+  margin-top: 5%;
+
+}
+.soialIcons a {
+padding-left: 40%;
+padding-top: 10%;
+margin: 10px;
+}
+
+#GoogleMaps iframe{
+
+float: right;
+width: 40%;
+height: 40%;
+margin: 5%;
+}
+
+/*contact form */
+
+/*POPUP Contact box CSS*/
+
+.mail {
+    display: none;
+    position: fixed;
+    z-index: 10;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+}
+
+
+#myBtn {
+  height: 5%;
+  background-color: #424241;
+  margin-left: 50%;
+  margin-right: 50%;
+  border: 3px solid #EEE;
+  margin-bottom: 50px;
+  }
+
+.modal-content{
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 10px;
+    border: 5px solid #424241;
+    max-width: 500px;
+    width: 45%;
+}
+.modal-content p{
+  color: black;
+}
+.close {
+    color: black;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+/*POPUP Contact box CSS*/
+
+/*Photo gallery GRID CSS*/
+/* Create two equal columns that floats next to each other */
+* {
+    box-sizing: border-box;
+}
+
+.column {
+  float: left;
+    width: 100%;
+    padding: 5%;
+}
+
+.column img {
+    margin-top: 10%;
+    padding: 5%;
+    width: 100%;
+    max-width: 2560px;
+}
+
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+footer {
+  position: fixed;
+  right: 10px;
+  bottom: 0;
+  font-size: 14;
+  text-align: right;
+  width: 100%;
+  z-index: +1;
+  color: white;
+  background-color: #424241;
+}
