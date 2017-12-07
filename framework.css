@@ -5,10 +5,9 @@ padding-left: 20px;
 margin-bottom: 20px;
 padding-right: 20px;
 }
-
-
-#title {
-  float: right;
+/*The Name is always color white*/
+.topPage {
+  color: white;
 }
 
 h1{
