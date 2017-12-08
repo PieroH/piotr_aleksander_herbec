@@ -19,6 +19,7 @@ padding-right: 20px;
 h1{
   color: white;
   font-size: 34;
+  border: 1px solid black;
 }
 h2  {
   size: 44;
