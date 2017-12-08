@@ -163,8 +163,8 @@ table{
     margin-left: 15%;
     margin-right: 15%;
     margin-top: 2%;
-    width: 60%;
-    height: 70%;
+    max-width: 960px;
+    max-height: 540px;
 }
 /*VIDEO content, centered and big*/
 
