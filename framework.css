@@ -97,7 +97,7 @@ p {
   }
 
 .rpage {
-margin-right: 10%;
+margin-right: 30px;
   float: right;
   }
 
@@ -226,12 +226,16 @@ height: 5%
   text-align: center;
   width: 50%;
   margin-top: 5%;
-
 }
+
 .soialIcons a {
 padding-left: 40%;
 padding-top: 10%;
 margin: 10px;
+}
+
+label {
+  color: white;
 }
 
 #GoogleMaps iframe{
