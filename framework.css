@@ -9,6 +9,9 @@ padding-right: 20px;
 .topPage {
   color: white;
 }
+.topPage img {
+ size: 10%;
+}
 /*The Names is in the right top corner*/
 #title {
   float: right;
