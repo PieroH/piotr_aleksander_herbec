@@ -14,7 +14,6 @@ padding-right: 20px;
   float: right;
 }
 
-
 h1{
   color: white;
   font-size: 34;
@@ -88,7 +87,7 @@ p {
 
 #homecontent {
   width: 100%;
-  margin: 10%;
+  margin: 5%;
 }
 
 #box2 {
@@ -222,6 +221,11 @@ width: 50%;
 margin-top: 5%;
 height: 5%
 }
+
+label {
+  color: white;
+}
+
 .socialIcons {
   text-align: center;
   width: 50%;
@@ -229,21 +233,16 @@ height: 5%
 }
 
 .soialIcons a {
-padding-left: 40%;
-padding-top: 10%;
-margin: 10px;
-}
-
-label {
-  color: white;
+ padding-left: 40%;
+ padding-top: 10%;
+ margin: 10px;
 }
 
 #GoogleMaps iframe{
-
-float: right;
-width: 40%;
-height: 40%;
-margin: 5%;
+ float: right;
+ width: 40%;
+ height: 40%;
+ margin: 5%;
 }
 /*contact form */
 
