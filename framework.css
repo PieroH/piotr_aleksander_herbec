@@ -86,8 +86,8 @@ p {
 }
 
 #homecontent {
-  width: 100%;
-  margin: 5%;
+  width: 90%;
+  margin: 10%;
 }
 
 #box2 {
@@ -96,7 +96,7 @@ p {
   }
 
 .rpage {
-margin-right: 30px;
+padding-right: 30px;
   float: right;
   }
 
