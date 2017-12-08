@@ -160,9 +160,11 @@ table{
 
 /*VIDEO content, centered and big*/
 #videobox iframe {
-    margin-left: 20%;
-    margin-right: 20%;
-    padding-top: 56.25%; 
+   margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 2%;
+    width: 70%;
+    height: 70%;
 }
 /*VIDEO content, centered and big*/
 
