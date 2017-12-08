@@ -224,6 +224,7 @@ text-align: center;
 width: 50%;
 margin-top: 5%;
 height: 5%
+margin-bottom: 5%;
 }
 
 label {
@@ -271,7 +272,7 @@ label {
   margin-left: 50%;
   margin-right: 50%;
   border: 3px solid #EEE;
-  margin-bottom: 50px;
+  margin-bottom: 10%;
   }
 
 /*LAYOUT OF CONTENT IN THE POPUP*/
