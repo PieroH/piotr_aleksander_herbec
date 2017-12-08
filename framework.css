@@ -190,7 +190,6 @@ color: white;
 }
 .grid-container img {
   width: 100%;
-  content: no-repeat;
   padding: 5%;
 }
 /*The project stylesheet*/
