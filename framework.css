@@ -86,17 +86,18 @@ p {
   font-size: 22;
 }
 
+#homecontent {
+  width: 100%;
+  margin: 10%;
+}
 
 #box2 {
-  max-width: 50%;
-  margin-top: 10%;
-  margin-left: 5%;
   float:left;
+  width: 60%;
   }
 
 .rpage {
-  margin-top: 10%;
-  margin-right: 40px;
+margin-right: 10%;
   float: right;
   }
 
