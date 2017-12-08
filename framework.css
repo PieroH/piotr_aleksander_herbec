@@ -14,11 +14,27 @@ padding-right: 20px;
   float: right;
 }
 
+/*HEADINGS and PARAGRAPHS*/
 h1{
   color: white;
   font-size: 34;
 }
+h2  {
+  size: 44;
+  color: lightgrey;
+  text-align: left:
+}
 
+p {
+  color: lightgrey;
+  font-size: 22;
+}
+
+
+/*BACKGROUND COLORS AND STYLES*/
+
+/*The Picture with camera, is a theme for the website.*/
+/*Using (background-size: contain;) and (background-repeat: no-repeat;) to fit it to max-width of the window*/
 body {
      background: url(theme.jpg);
      background-color: #424241;
@@ -27,15 +43,18 @@ body {
      overflow-x: hidden;
 }
 
+/*The rest of the webpage is in the dark grey*/
 main {
   background-color: #424241;
 }
+/* END OF BACKGROUND COLORS AND STYLES*/
+
 
 i {
   color: white;
 }
 
-/*NAVIGATION BAR Left Inline*/
+/*NAVIGATION BAR, Float Left & Inline (USING UNORDERED LIST)*/
 
 #navigation {
   padding: 20px;
@@ -74,22 +93,12 @@ section {
 
 /*HOME content section*/
 
-h2  {
-  size: 44;
-  color: lightgrey;
-  text-align: left:
-}
-
-p {
-  color: lightgrey;
-  font-size: 22;
-}
-
 #homecontent {
   width: 80%;
   margin: 10%;
 }
 
+/*THE BOX2 IS THE CONTAINER FOR #HOMECONTENT (ONLY PARAGRAPHS)*/
 #box2 {
   float:left;
   width: 60%;
@@ -104,7 +113,6 @@ p {
 
 
 /*The CV Tables and styling*/
-
 #tableEDU {
     max-width: auto;
     margin-left: 5%;
@@ -146,8 +154,7 @@ article {
 table{
   margin-left: 10%;
   }
-
-/*The CV Tables and styling*/
+/* END OF the CV Tables and styling*/
 
 /*VIDEO content, centered and big*/
 #videobox iframe {
@@ -156,13 +163,11 @@ table{
     margin-top: 2%;
     width: 70%;
     height: 70%;
-
 }
 /*VIDEO content, centered and big*/
 
 
-/*The PROJECT SITE stylesheet*/
-
+/*The PROJECT.html SITE stylesheet*/
 .nav {
   background-color: #424241;
 }
@@ -191,7 +196,6 @@ color: white;
 /*The project stylesheet*/
 
 /*bottom Galleries*/
-
 #galleryphotos {
   float: left;
 }
@@ -246,6 +250,8 @@ label {
 /*contact form */
 
 /*POPUP Contact box CSS*/
+
+/*POSITION OF THE JS POPUP WHEN CLICKED*/
 .mail {
     display: none;
     position: fixed;
@@ -257,7 +263,7 @@ label {
     overflow: auto;
 }
 
-
+/*POPUP BUTTON*/
 #myBtn {
   height: 5%;
   background-color: #424241;
@@ -267,6 +273,7 @@ label {
   margin-bottom: 50px;
   }
 
+/*LAYOUT OF CONTENT IN THE POPUP*/
 .modal-content{
     background-color: #fefefe;
     margin: 15% auto;
@@ -278,24 +285,26 @@ label {
 .modal-content p{
   color: black;
 }
+/*The "X" Close BUTTON*/
 .close {
     color: black;
     float: right;
     font-size: 28px;
     font-weight: bold;
 }
+/*When MOUSE pointed on CLOSE button, hover(Shade IT)*/
 .close:hover,
 .close:focus {
     color: black;
     text-decoration: none;
     cursor: pointer;
 }
+/* END OF POPUP Contact box CSS*/
 
-
-/*POPUP Contact box CSS*/
 
 /*Photo gallery GRID CSS*/
 /* Create two equal columns that floats next to each other */
+
 * {
     box-sizing: border-box;
 }
@@ -321,6 +330,7 @@ label {
     clear: both;
 }
 
+/*POSITION OF COPYRIGHT INFO*/
 footer {
   position: fixed;
   right: 10px;
