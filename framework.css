@@ -216,7 +216,6 @@ color: white;
 /*bottom Galleries*/
 
 /*contact form */
-
 .contactTAB {
 text-align: center;
 width: 50%;
@@ -242,11 +241,9 @@ width: 40%;
 height: 40%;
 margin: 5%;
 }
-
 /*contact form */
 
 /*POPUP Contact box CSS*/
-
 .mail {
     display: none;
     position: fixed;
